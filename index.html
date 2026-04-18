@@ -19,6 +19,11 @@
     }
   </style>
 </head>
+<script>
+  function changeText() {
+    document.getElementById("message").innerText = "You clicked the button 🚀";
+  }
+</script>
 <body>
 
   <h1>Kavya Reddy 👋</h1>
@@ -37,6 +42,9 @@
     <h2>Projects</h2>
     <p>Python Exercises Repository</p>
   </div>
+   <button onclick="changeText()">Click Me</button>
+
+   <p id="message">Hello 👋</p>
 
 </body>
 </html>
